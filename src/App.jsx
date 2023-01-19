@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Blank from "./pages/Blank";
 import Dashboard from "./pages/Dashboard";
 import MainLayout from "./layout/MainLayout";
+import Orders from "./pages/Orders";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Dashboard />} />
-          <Route path="orders" element={<Blank />} />
+          <Route path="orders" element={<Orders />} />
           <Route path="products" element={<Blank />} />
           <Route path="customers" element={<Blank />} />
           <Route path="settings" element={<Blank />} />
