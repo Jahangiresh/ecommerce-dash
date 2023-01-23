@@ -6,7 +6,7 @@ thead {
   tr {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 .my__box {
@@ -21,13 +21,23 @@ thead {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    .image__td {
+      width: 100px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      img {
+        width: 100%;
+      }
+    }
     tr {
       width: 100%;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       border: none;
       display: flex;
       align-items: center;
+    
     }
   }
 }
