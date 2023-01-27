@@ -11,6 +11,7 @@ import Users from "./pages/Users";
 import ProductDetails from "./pages/ProductDetails";
 import Login from "./pages/Login";
 import Settings from "./pages/Settings";
+import MainInfo from "./pages/MainInfo";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="products" element={<Products />} />
           <Route path="customers" element={<Users />} />
           <Route path="login" element={<Login />} />
+          <Route path="maininfo" element={<MainInfo />} />
 
           <Route path="settings" element={<Settings />} />
           <Route path="stats" element={<Blank />} />

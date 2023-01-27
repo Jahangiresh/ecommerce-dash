@@ -9,10 +9,13 @@ const Login = () => {
 
   const loginHandler = async () => {
     try {
-      const { data } = await axios.post("http://localhost:3000/admins", {
-        username: username,
-        password: password,
-      });
+      const { data } = await axios.post(
+        "https://irp.ramanacastle.com/api/login-admin",
+        {
+          email: username,
+          password: password,
+        }
+      );
       alert("no error");
       console.log(data);
     } catch (error) {

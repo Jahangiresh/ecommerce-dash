@@ -127,8 +127,14 @@
 }
 .accordion__body {
   padding-left: 76px;
-  &__ul{
-    &__li
+  &__ul {
+    margin-left: 48px;
+    &__li {
+      text-transform: capitalize;
+      font-size: 16px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
   }
 }
 
@@ -136,6 +142,9 @@
   border: none;
   padding-left: 76px;
   background: white !important;
+  font-size: 18px;
+  color: #4e4d55;
+  font-weight: 400;
 
   &:focus {
     outline: 0 !important;

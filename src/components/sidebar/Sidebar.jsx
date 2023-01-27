@@ -55,7 +55,9 @@ const Sidebar = () => {
             </Accordion.Header>
             <Accordion.Body className="accordion__body ">
               <ul className="accordion__body__ul">
-                <li className="accordion__body__ul__li">main information</li>
+                <Link to="/maininfo" className="accordion__body__ul__li">
+                  main information
+                </Link>
                 <li className="accordion__body__ul__li">configuration</li>
                 <li className="accordion__body__ul__li">sliders</li>
                 <li className="accordion__body__ul__li">users</li>
