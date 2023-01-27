@@ -30,16 +30,10 @@ const sidebarNav = [
     text: "Customers",
   },
   {
-    link: "/stats",
-    section: "stats",
-    icon: <i className="bx bx-line-chart"></i>,
-    text: "Stats",
-  },
-  {
-    link: "/settings",
-    section: "settings",
+    link: "/login",
+    section: "login",
     icon: <i className="bx bx-cog"></i>,
-    text: "Settings",
+    text: "Login",
   },
 ];
 

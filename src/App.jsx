@@ -9,6 +9,8 @@ import PageSettings from "./pages/PageSettings";
 import Products from "./pages/Products";
 import Users from "./pages/Users";
 import ProductDetails from "./pages/ProductDetails";
+import Login from "./pages/Login";
+import Settings from "./pages/Settings";
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
           <Route path="orders" element={<Orders />} />
           <Route path="products" element={<Products />} />
           <Route path="customers" element={<Users />} />
-          <Route path="settings" element={<Blank />} />
+          <Route path="login" element={<Login />} />
+
+          <Route path="settings" element={<Settings />} />
           <Route path="stats" element={<Blank />} />
           <Route path="homepage" element={<PageSettings />} />
           <Route path="productdetails" element={<ProductDetails />} />
